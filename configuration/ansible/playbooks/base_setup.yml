@@ -1,0 +1,5 @@
+- name: Base Server Configuration
+  hosts: vm1
+  become: yes
+  gather_facts: yes
+
